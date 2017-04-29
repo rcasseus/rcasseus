@@ -19,7 +19,8 @@
 
     <!-- Google Fonts
       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700|Rubik:400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,600|Open+Sans:300,400,400i,600" rel="stylesheet">
+
     <!-- Scripts
       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -28,39 +29,104 @@
 <body>
   <!-- Header and Nav
     –––––––––––––––––––––––––––––––––––––––––––––––––-->
-    <header>
-      <p> <a href="index.html">Rashan Casseus</a><br>
-        <span>Interaction Designer</span>
-      </p>
-
-    <ul class="inlinelist">
-      <li><a href="#">Work</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Linkedin</a></li>
-      <li><a href="#">Something Else</a></li>
-    </ul>
-    
+    <header class="container" id="mainNav">
+      <div class="grid-4">
+        <p> <a href="index.html">Rashan Casseus</a><br>
+          <span class="redTxt">Interaction Designer</span>
+        </p>
+      </div>
+      <div class="grid-8">
+        <ul class="inlinelist">
+          <li><a href="#" name="hide">Work</a></li>
+          <li><a href="#" name="hide">About</a></li>
+          <li><a href="#">Linkedin</a></li>
+          <li><a href="#">twitter</a></li>
+        </ul>
+      </div>
   </header>
+
 
   <!-- Intro text and graphic
     –––––––––––––––––––––––––––––––––––––––––––––––––-->
+    <section class="container clear-grid">
+      <div class="grid-8">
+        <h1>A senior <span name="jobTitle" class="redTxt">interaction designer</span> living in <span class="redTxt">New York</span>.
+    Partnering with <span class="redTxt">startups</span> to bring ideas to life with beautiful <span class="redTxt">UI designs</span> and solid <span class="redTxt">UX practices</span>,  is what I do.</h1>
+      </div>
 
+    </section>
 
   <!-- Projects Hide me for now
     –––––––––––––––––––––––––––––––––––––––––––––––––-->
 
+<section class="container clear-grid">
+  <div class="grid-3">
+    <h2 class="redTxt">Projects</h2>
+  </div>
+  <div class="grid-7">
+    <div class="hpProject">
+      <h3 class=""><a href="#">Skour Mobile Design</a> <span class="calloutTxt">UX.UI</span></h3>
+      <p>A mobile commerce platform providing on-demand retail and  marketing services to boutiques and customers.</p>
+    </div>
+    <div class="hpProject">
+      <h3 class=""><a href="#">Chase: My New Home</a> <span class="calloutTxt">UX</span></h3>
+      <p>Using YouTube to help empower buyers on their journey to  become home owners.3/p>
+    </div>
+    <div class="hpProject">
+      <h3 class=""><a href="#">Wheat Thins: #SuperSnackMe</a> <span class="calloutTxt">UX</span></h3>
+      <p>A responsive website using Twitter and Facebook to  crowdsource Super Bowl champions. </p>
+    </div>
+
+  </div>
+</section>
+
 
   <!-- Past Clients
     –––––––––––––––––––––––––––––––––––––––––––––––––-->
-
+<section class="container clear-grid">
+  <div class="grid-3">
+    <h2 class="redTxt">Past Clients</h2>
+  </div>
+  <div class="grid-7">
+    <ul class="inlinelist">
+      <li><img class="clientLogo" src="img/chaselogo.png" alt="Skour App"></li>
+      <li><img class="clientLogo" src="img/skourlogo.png" alt="Squarepeg Hire"></li>
+      <li><img class="clientLogo" src="img/nvestnlogo.png" alt="NvestN"></li>
+      <li><img class="clientLogo" src="img/squarepeglogo.png" alt="Squarepeg Hire"></li>
+    </ul>
+  </div>
+</section>
 
   <!-- Lets get to work
     –––––––––––––––––––––––––––––––––––––––––––––––––-->
+<section class="container">
+  <div class="grid-3">
+    <h2 class="redTxt">Lets get to work</h2>
+    <p>Tell me about your idea and what you’re trying to accomplish.
+</p>
+  </div>
+  <div class="grid-7">
+    <button type="button" name="button">Hire Me</button>
 
+  </div>
+
+</section>
 
   <!-- Footer
     –––––––––––––––––––––––––––––––––––––––––––––––––-->
+<footer class="container">
+  <div class="grid-10">
+    <p>Rashan Casseus <span class="redTxt">Interaction Designer</span></p>
+    <ul class="inlinelist">
+      <li><a href="#"><img src="" alt="email"></a></li>
+      <li><a href="#"><img src="" alt="twitter"></a></li>
+      <li><a href="#"><img src="" alt="linkedin"></a></li>
+      <li><a href="#"><img src="" alt="dribbble"></a></li>
 
+    </ul>
+  </div>
+
+</footer>
 
 
 </body>

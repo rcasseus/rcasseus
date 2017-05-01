@@ -23,54 +23,62 @@
 
     <!-- Scripts
       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 </head>
 <body>
   <!-- Header and Nav
     –––––––––––––––––––––––––––––––––––––––––––––––––-->
-    <header class="container" id="mainNav">
-      <div class="grid-4">
+    <nav class="container" id="mainNav">
+      <div class="grid-m-12 grid-t-4 grid-tl-4 grid-d-4">
         <p> <a href="index.html">Rashan Casseus</a><br>
-          <span class="redTxt">Interaction Designer</span>
+          <span class="redTxt italic">Interaction Designer</span>
         </p>
       </div>
-      <div class="grid-8">
+      <div class=" grid-m-12 grid-t-8 grid-tl-8 grid-8">
         <ul class="inlinelist">
-          <li><a href="#" name="hide">Work</a></li>
-          <li><a href="#" name="hide">About</a></li>
-          <li><a href="#">Linkedin</a></li>
-          <li><a href="#">twitter</a></li>
+          <li><a href="#" class="hide">Work</a></li>
+          <li><a href="#" class="hide">About</a></li>
+          <li><a href="https://www.linkedin.com/in/rcasseus" target="_blank">Linkedin</a></li>
+          <li><a href="https://twitter.com/rcasseus" target="_blank">Twitter</a></li>
         </ul>
       </div>
-  </header>
+
+  </nav>
 
 
   <!-- Intro text and graphic
     –––––––––––––––––––––––––––––––––––––––––––––––––-->
-    <section class="container clear-grid">
-      <div class="grid-8">
+    <header class="container clear-grid">
+      <div class="grid-m-12 grid-t-8 grid-tl-9 grid-8">
         <h1>A senior <span name="jobTitle" class="redTxt">interaction designer</span> living in <span class="redTxt">New York</span>.
-    Partnering with <span class="redTxt">startups</span> to bring ideas to life with beautiful <span class="redTxt">UI designs</span> and solid <span class="redTxt">UX practices</span>,  is what I do.</h1>
+    Partnering with <span class="redTxt">startups</span> to bring ideas to life with beautiful <span class="redTxt">UI designs</span> and solid <span class="redTxt">UX practices</span>, <br /> is what I do.</h1>
+    <div class="padtop20">
+      <a href="https://www.dropbox.com/s/wd1jrphdrqa9xyn/rcasseus_resume.pdf?dl=0" target="_blank" class="btn">Download My Resum&eacute;</a>
+    </div>
+      </div>
+      <!-- graphic -->
+      <div class="grid-m-12 grid-12 clear-grid">
+        <img class="scale floatRight" id="hpGraphic" src="img/phoneGraphic@1x.png" alt="Mobile Phone Graphic">
       </div>
 
-    </section>
+    </header>
 
   <!-- Projects Hide me for now
     –––––––––––––––––––––––––––––––––––––––––––––––––-->
 
-<section class="container clear-grid">
+<!-- <section class="container clear-grid">
   <div class="grid-3">
     <h2 class="redTxt">Projects</h2>
   </div>
-  <div class="grid-7">
+  <div class="grid-m-12 grid-t-7 grid-tl-7 grid-7">
     <div class="hpProject">
       <h3 class=""><a href="#">Skour Mobile Design</a> <span class="calloutTxt">UX.UI</span></h3>
       <p>A mobile commerce platform providing on-demand retail and  marketing services to boutiques and customers.</p>
     </div>
     <div class="hpProject">
       <h3 class=""><a href="#">Chase: My New Home</a> <span class="calloutTxt">UX</span></h3>
-      <p>Using YouTube to help empower buyers on their journey to  become home owners.3/p>
+      <p>Using YouTube to help empower buyers on their journey to  become home owners.</p>
     </div>
     <div class="hpProject">
       <h3 class=""><a href="#">Wheat Thins: #SuperSnackMe</a> <span class="calloutTxt">UX</span></h3>
@@ -78,7 +86,7 @@
     </div>
 
   </div>
-</section>
+</section> -->
 
 
   <!-- Past Clients
@@ -87,12 +95,18 @@
   <div class="grid-3">
     <h2 class="redTxt">Past Clients</h2>
   </div>
-  <div class="grid-7">
-    <ul class="inlinelist">
-      <li><img class="clientLogo" src="img/chaselogo.png" alt="Skour App"></li>
-      <li><img class="clientLogo" src="img/skourlogo.png" alt="Squarepeg Hire"></li>
-      <li><img class="clientLogo" src="img/nvestnlogo.png" alt="NvestN"></li>
-      <li><img class="clientLogo" src="img/squarepeglogo.png" alt="Squarepeg Hire"></li>
+  <div class="grid-m-12 grid-t-7 grid-tl-7 grid-7">
+    <div class="grid-t-6 grid-tl-6 grid-6">
+      <ul class="">
+        <li><img class="scale clientLogo" src="img/chaselogo.png" alt="Skour App"></li>
+        <li><img class="scale clientLogo" src="img/skourlogo.png" alt="Squarepeg Hire"></li>
+      </ul>
+    </div>
+
+    <div class="grid-t-6 grid-tl-6 grid-6">
+      <ul class="">
+      <li><img class="scale clientLogo" src="img/nvestnlogo.png" alt="NvestN"></li>
+      <li><img class="scale clientLogo" src="img/squarepeglogo.png" alt="Squarepeg Hire"></li>
     </ul>
   </div>
 </section>
@@ -102,11 +116,12 @@
 <section class="container">
   <div class="grid-3">
     <h2 class="redTxt">Lets get to work</h2>
-    <p>Tell me about your idea and what you’re trying to accomplish.
-</p>
+    <p>Lets get some coffee and talk about your idea.</p>
   </div>
-  <div class="grid-7">
-    <button type="button" name="button">Hire Me</button>
+  <div class="grid-m-12 grid-t-7 grid-tl-7 grid-7">
+    <div class="padtop20">
+      <a href="mailto:rashan.casseus@gmail.com?Subject=Lets%20get%20to%20work" class="btn">Hire Me</a>
+    </div>
 
   </div>
 
@@ -114,16 +129,18 @@
 
   <!-- Footer
     –––––––––––––––––––––––––––––––––––––––––––––––––-->
-<footer class="container">
-  <div class="grid-10">
-    <p>Rashan Casseus <span class="redTxt">Interaction Designer</span></p>
-    <ul class="inlinelist">
-      <li><a href="#"><img src="" alt="email"></a></li>
-      <li><a href="#"><img src="" alt="twitter"></a></li>
-      <li><a href="#"><img src="" alt="linkedin"></a></li>
-      <li><a href="#"><img src="" alt="dribbble"></a></li>
+<footer class="">
+  <div class="container">
+    <div class="grid-m-12 grid-12">
+      <p class="padbtm20 whiteTxt">Rashan Casseus <span class="redTxt italic">Interaction Designer</span></p>
+      <ul class="inlinelist padtop20">
+        <li><a href="mailto:rashan.casseus@gmail.com?Subject=Lets%20get%20to%20work"><img src="img/emailfooter@1x.png" alt="email"></a></li>
+        <li><a href="https://twitter.com/rcasseus" target="_blank"><img class="scale" src="img/twitterfooter@1x.png" alt="twitter"></a></li>
+        <li><a href="https://www.linkedin.com/in/rcasseus" target="_blank"><img class="scale" src="img/linkedinfooter@1x.png" alt="linkedin"></a></li>
+        <!-- <li><a href="#"><img class="scale" src="img/dribbblefooter@1x.png" alt="dribbble"></a></li> -->
+      </ul>
+    </div>
 
-    </ul>
   </div>
 
 </footer>

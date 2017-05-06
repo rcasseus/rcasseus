@@ -26,9 +26,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 </head>
-<body>
-  <!-- Header and Nav
-    –––––––––––––––––––––––––––––––––––––––––––––––––-->
+
+<!-- Header and Nav
+  –––––––––––––––––––––––––––––––––––––––––––––––––-->
+
+<body id="pgHeaderSkour">
     <nav class="container" id="mainNav">
       <div class="grid-m-6 grid-t-4 grid-tl-4 grid-d-4">
         <p> <a href="index.html">Rashan Casseus</a><br>
@@ -37,76 +39,82 @@
       </div>
       <div class=" grid-m-6 grid-t-8 grid-tl-8 grid-8">
         <ul class="inlinelist">
-          <li class="hidethis"><a href="#" class="hide">Work</a></li>
-          <li class="hidethis"><a href="#" class="hide">About</a></li>
-          <li class="hidethis "><a href="https://www.linkedin.com/in/rcasseus" target="_blank">Linkedin</a></li>
-          <li><a href="https://twitter.com/rcasseus" target="_blank">Twitter</a></li>
+          <li><a class="hideOnMobile" href="https://www.linkedin.com/in/rcasseus" target="_blank">Linkedin</a></li>
+          <li><a class="hideOnMobile" href="https://twitter.com/rcasseus" target="_blank">Twitter</a></li>
+          <li><a class="showOnMobile" href="https://www.linkedin.com/in/rcasseus" target="_blank"><img class="scale" src="img/linkedinfooter@1x.png" alt="linkedin"></a></li>
+          <li><a class="showOnMobile" href="https://twitter.com/rcasseus" target="_blank"><img class="scale" src="img/twitterfooter@1x.png" alt="twitter"></a></li>
         </ul>
       </div>
-
   </nav>
 
   <!-- Project Defintion
     –––––––––––––––––––––––––––––––––––––––––––––––––-->
-    <section class="container" id="pgTOP">
+    <section class="container prjHead" id="pgTOP">
       <div class="grid-12">
-        <h1>Skour Mobil Design <span class="redTXT italic">UX.UI</span></h1>
-        <h3>A mobile commerce platform providing on-demand retail and  marketing services to boutiques and customers.</h3>
+        <h1>Skour Mobile Design <span class="subHead">UX.UI</span></h1>
+        <h3>A mobile commerce platform providing on-demand retail and  <br>marketing services to boutiques and customers.</h3>
       </div>
 
-      <div class="clear-grid grid-4">
-        <p><span>Client</span> Skour App</p>
+      <div class="grid-m-4 grid-3">
+        <p><span class="redTxt italic">Client</span><br> Skour App</p>
       </div>
-      <div class="grid-4">
-        <p><span>Services</span>Flowcharts, Wireframes, Design</p>
+      <div class="grid-m-4 grid-5">
+        <p><span  class="redTXT italic">Services</span> <br>Flowcharts, Wireframes, Design</p>
       </div>
-      <div class="grid-4">
-        <p><span>Link</span><a href="#">Visit Link</a></p>
+      <div class="grid-m-4 grid-4">
+        <p><span  class="redTXT italic">Link</span><br><a href="http://www.goskour.com/
+" target="_blank">Visit Link</a></p>
+      </div>
+
+      <div class="grid-8">
+        <p>Skour establishes partnerships with on trend boutiques within your city. Through this partnership mobile shoppers have access to limited edition items via they’re phone. Items can be held for them or delivered. </p>
       </div>
     </section>
-
 
     <!-- Back to top button -->
     <div class="Back2top">
       <a href="#pgTOP"><img src="" alt=""></a>
     </div>
 
-    <!-- need a new container model to center this column -->
-    <section class="container">
-      <div class="grid-6">
-        <p>Skour establishes partnerships with on trend boutiques within your city. Through this partnership mobile shoppers have access to limited edition items via they’re phone. Items can be held for them or delivered. </p>
-      </div>
-    </section>
 
-    <section name="UserFlow" class="container">
-      <div class="grid-6">
-        <h3>User Flow</h3>
+    <section id="UserFlow" class="sectionPad clear-grid container">
+      <div class="grid-3">
+        <h3 class="redTxt">User Flow</h3>
         <p>To workout how a user would get an item delivered we created a user flow. It helped us understand the steps a  user would go through to get the delivery.</p>
+
+      </div>
+      <div class="grid-8">
         <div class="projectIMG">
-          <img src="" alt="Flow Chart">
+          <img class="scale" src="img/skour-ProcessMap_20160709.png" alt="Flow Chart">
         </div>
       </div>
+
+      </div>
     </section>
 
-    <section name="Designs" class="container">
-      <div class="grid-6">
-        <h3>Designs</h3>
-      </div>
 
       <!-- prjBg class for the purple background color -->
-      <div class="clear-grid grid-12 prjBg">
-        <div class="grid-4">
-          <img src="" alt="Walkthrough Design"> <!-- walkthrough image -->
-        </div>
+    <section id="Designs" class="sectionPad">
 
-        <div class="grid-4">
-          <img src="" alt="Product Feed"> <!-- Feed image -->
-        </div>
+          <div class="container clear-grid">
+            <div class="grid-12 grid-t-2 grid-tl-3 grid-3">
+              <h3 class="redTxt">Designs</h3>
+            </div>
 
-        <div class="grid-4">
-          <img src="" alt="Product Detail"> <!-- product detail image -->
-        </div>
-      </div>
+            <div class="grid-m-12 grid-t-10 grid-tl-8 grid-8">
+              <div class="grid-m-12 grid-t-4 grid-tl-4 grid-4">
+                <img class="scale" src="img/skour0_1-Walkthrough.png" alt="Walkthrough Design"> <!-- walkthrough image -->
+              </div>
+
+              <div class="grid-m-12 grid-t-4 grid-tl-4 grid-4">
+                <img class="scale" src="img/skour1_0-Feed-item-in-cart-timer.png" alt="Interaction Feed"> <!-- Feed image -->
+              </div>
+
+              <div class="grid-m-12 grid-t-4 grid-tl-4 grid-4">
+                <img class="scale" src="img/skour2_0-Purchase0-Path-add-to-wishlist.png" alt="Interaction Detail"> <!-- Interaction detail image -->
+              </div>
+            </div>
+          </div>
 
     </section>
 
@@ -116,10 +124,13 @@
 <section class="container">
   <div class="grid-3">
     <h2 class="redTxt">Lets get to work</h2>
-    <p>Lets get some coffee and talk about your idea.</p>
   </div>
   <div class="grid-m-12 grid-t-7 grid-tl-7 grid-7">
-    <div class="padtop20">
+    <div class="grid-t-6 grid-6 grid-4">
+      <p>Lets get some coffee and talk about your idea.</p>
+
+    </div>
+    <div class="grid-t-6 grid-6 padtop20">
       <a href="mailto:rashan.casseus@gmail.com?Subject=Lets%20get%20to%20work" class="btn">Hire Me</a>
     </div>
 

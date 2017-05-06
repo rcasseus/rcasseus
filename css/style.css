@@ -1,7 +1,11 @@
 body {
   color: #0a0f0d; }
 
-h1, h2, h3 {
+h1 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600; }
+
+h2, h3 {
   font-family: "Nunito", sans-serif;
   font-weight: 300; }
 
@@ -90,6 +94,11 @@ li a.inlinelist {
 .tcenter {
   text-align: center; }
 
+.subHead {
+  font-style: italic;
+  color: #EE4266;
+  font-size: 0.55em; }
+
 button {
   color: #ffffff;
   background-color: #3cbbb1;
@@ -101,7 +110,7 @@ button {
 .btn {
   color: #ffffff;
   background-color: #3cbbb1;
-  padding: 1em 2em;
+  padding: 1em 3.5em;
   border-radius: 5px;
   border: none;
   font-size: 1em;
@@ -111,7 +120,15 @@ button {
   text-decoration: none;
   background-color: #29847d; }
 
-body {
+#hmPgHeader {
+  background: #ffffff url("../img/geometry_@2X.png") repeat-x;
+  background-size: 500px; }
+
+#pgHeaderSkour {
+  background: #ffffff url("../img/bgtopography@2x.png") repeat-x;
+  background-size: 475px; }
+
+#bgimg1 {
   background: #ffffff url("../img/geometry_@2X.png") repeat-x;
   background-size: 500px; }
 
@@ -155,5 +172,11 @@ footer li {
   margin: auto;
   width: 50%;
   padding: 10px; }
+
+.prjHead {
+  padding-bottom: 4em; }
+
+.sectionPad {
+  padding: 5em 0; }
 
 /*# sourceMappingURL=style.css.map */

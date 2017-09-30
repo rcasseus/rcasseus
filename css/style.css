@@ -120,6 +120,9 @@ button {
   text-decoration: none;
   background-color: #29847d; }
 
+.btn.hirebtn {
+  padding: 1em 5em; }
+
 #hmPgHeader {
   background: #ffffff url("../img/geometry_@2X.png") repeat-x;
   background-size: 500px; }
@@ -127,6 +130,15 @@ button {
 #pgHeaderSkour {
   background: #ffffff url("../img/bgtopography@2x.png") repeat-x;
   background-size: 475px; }
+
+#pgHeaderChase {
+  background: #ffffff url("../img/bgsayagata-400px.png") repeat-x;
+  background-size: 475px; }
+
+#pgHeaderWheatthin {
+  background: #ffffff url("../img/bgrestaurant_icons.png") repeat-x;
+  background-size: 375px;
+  overflow: hidden; }
 
 #bgimg1 {
   background: #ffffff url("../img/geometry_@2X.png") repeat-x;
@@ -145,7 +157,14 @@ footer {
   margin-top: 50px; }
 
 footer li {
-  padding: 0 9%; }
+  padding: 0 9%;
+}
+
+@media screen and (min-width: 320px) {
+  footer li {
+    padding: 0 5%;
+  }
+}
 
 @media screen and (min-width: 320px) {
   #hpGraphic {
@@ -177,6 +196,6 @@ footer li {
   padding-bottom: 4em; }
 
 .sectionPad {
-  padding: 5em 0; }
+  padding: 3em 0; }
 
 /*# sourceMappingURL=style.css.map */

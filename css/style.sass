@@ -50,10 +50,14 @@ h4
   font-weight: 400
   font-family: 'Nunito', sans-serif
 
+@media screen and (min-width: 320px)
+  h4
+    font-size: 1.00em
+
 
 @media screen and (min-width: 320px)
   h1
-    font-size: 1.85em
+    font-size: 1.55em
 
 
 @media screen and (min-width: 412px)
@@ -63,6 +67,8 @@ h4
     font-size: 2em
   h3
     font-size: 1.5em
+  h4
+    font-size: 1.25em
 
 
 p, ul, li, a
@@ -189,15 +195,23 @@ button
   background: #ffffff url("../img/bgtopography@2x.png") repeat-x
   background-size: 475px
 
+
 #pgHeaderChase
   background: #ffffff url("../img/bgsayagata-400px.png") repeat-x
   background-size: 475px
+
 
 #pgHeaderWheatthin
   background: #ffffff url("../img/bgrestaurant_icons.png") repeat-x
   background-size: 375px
   overflow: hidden
 
+
+@media screen and (max-width: 620px)
+  #pgHeaderChase, #pgHeaderWheatthin, #pgHeaderSkour
+    background-size: 40rem
+
+    
 #bgimg1
   background: #ffffff url("../img/geometry_@2X.png") repeat-x
   background-size: 500px
@@ -216,7 +230,7 @@ footer
   margin-top: 50px
 
 footer li
-  padding: 0 9%
+  padding: 0 5%
 
 
 @media screen and (min-width: 320px)

@@ -2,33 +2,39 @@ body {
   color: #0a0f0d; }
 
 h1 {
-  font-family: "Nunito", sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-weight: 600; }
 
 h2, h3 {
-  font-family: "Nunito", sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-weight: 300; }
 
 h4 {
-  font-size: 1.50em;
+  font-size: 1.25em;
   font-weight: 400;
-  font-family: "Nunito", sans-serif; }
+  font-family: 'Nunito', sans-serif; }
+
+@media screen and (min-width: 320px) {
+  h4 {
+    font-size: 1.00em; } }
 
 @media screen and (min-width: 320px) {
   h1 {
-    font-size: 1.85em; } }
+    font-size: 1.55em; } }
+
 @media screen and (min-width: 412px) {
   h1 {
     font-size: 2.25em; }
-
   h2 {
     font-size: 2em; }
-
   h3 {
-    font-size: 1.5em; } }
+    font-size: 1.5em; }
+  h4 {
+    font-size: 1.25em; } }
+
 p, ul, li, a {
   line-height: 150%;
-  font-family: "Open Sans", sans-serif; }
+  font-family: 'Open Sans', sans-serif; }
 
 ul, li {
   list-style: none; }
@@ -60,11 +66,10 @@ li a.inlinelist {
 
 #mainNav li {
   display: inline-block;
-  padding-left: 0.8em; }
+  padding-left: .80em; }
 
 #mainNav ul.inlinelist {
-  float: right;
-  font-size: 1.15em;}
+  float: right; }
 
 #heroTxt {
   font-size: 2.8em; }
@@ -98,23 +103,23 @@ li a.inlinelist {
 .subHead {
   font-style: italic;
   color: #EE4266;
-  font-size: 0.55em; }
+  font-size: .55em; }
 
 button {
   color: #ffffff;
   background-color: #3cbbb1;
-  padding: 1em 2em;
+  padding: 1.0em 2.0em;
   border-radius: 5px;
   border: none;
-  font-size: 1em; }
+  font-size: 1.0em; }
 
 .btn {
   color: #ffffff;
   background-color: #3cbbb1;
-  padding: 1em 3.5em;
+  padding: 1.0em 3.5em;
   border-radius: 5px;
   border: none;
-  font-size: 1em;
+  font-size: 1.0em;
   cursor: pointer; }
 
 .btn:hover {
@@ -122,7 +127,7 @@ button {
   background-color: #29847d; }
 
 .btn.hirebtn {
-  padding: 1em 5em; }
+  padding: 1.0em 5em; }
 
 #hmPgHeader {
   background: #ffffff url("../img/geometry_@2X.png") repeat-x;
@@ -141,6 +146,10 @@ button {
   background-size: 375px;
   overflow: hidden; }
 
+@media screen and (max-width: 620px) {
+  #pgHeaderChase, #pgHeaderWheatthin, #pgHeaderSkour {
+    background-size: 40rem; } }
+
 #bgimg1 {
   background: #ffffff url("../img/geometry_@2X.png") repeat-x;
   background-size: 500px; }
@@ -158,30 +167,27 @@ footer {
   margin-top: 50px; }
 
 footer li {
-  padding: 0 9%;
-}
-
-@media screen and (min-width: 320px) {
-  footer li {
-    padding: 0 5%;
-  }
-}
+  padding: 0 5%; }
 
 @media screen and (min-width: 320px) {
   #hpGraphic {
     margin: 50px 0; } }
+
 @media screen and (min-width: 412px) {
   #hpGraphic {
     margin: -50px 20px 20px -20px; } }
+
 .hide {
   display: none; }
 
 @media screen and (max-width: 768px) {
   .hideOnMobile {
     display: none; } }
+
 @media screen and (min-width: 768px) {
   .showOnMobile {
     display: none; } }
+
 .padtop20 {
   padding-top: 20px; }
 
@@ -194,9 +200,7 @@ footer li {
   padding: 10px; }
 
 .prjHead {
-  padding-bottom: 4em; }
+  padding-bottom: 4.0em; }
 
 .sectionPad {
   padding: 3em 0; }
-
-/*# sourceMappingURL=style.css.map */
